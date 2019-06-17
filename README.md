@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # MY  GALLERY.
 This website helps users to view my galery and select a specific and see the details of the photo.
 #### By **Canssidle** 
@@ -40,6 +39,3 @@ Copy the link and paste in any browser ```http://localhost:8000```
 
 ## Licence
  MIT (c) 2019 canssidle (https://github.com/canssidle)
-=======
-# Personal-Gallery
->>>>>>> 7871cf1a6f6a955ee37e20434ec2891d6ddd97a1
