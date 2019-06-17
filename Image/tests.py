@@ -1,8 +1,8 @@
-# from django.test import TestCase
+from django.test import TestCase
 
-# # Create your tests here.
+# Create your tests here.
 
-# from .models import Location,categories,Image
+from .models import Location,categories,Image
 # import datetime as dt
 # # Create your tests here.
 # class LocationTestClass(TestCase):
