@@ -37,12 +37,12 @@ class categories(models.Model):
     def delete_category(cls,category):
         cls.objects.filter(category=category).delete()
 
-# class Image(models.Model):
-#     title=models.CharField(max_length=60)
-#     categories = models.ManyToManyField(categories)
-#     location = models.ForeignKey(Location,on_delete=models.CASCADE)
-#     image = models.ImageField(upload_to='images/',default='DEFAULT VALUE')
-#     post_date = models.DateTimeField(auto_now_add=True)
+class Image(models.Model):
+    title=models.CharField(max_length=60)
+    categories = models.ManyToManyField(categories)
+    location = models.ForeignKey(Location,on_delete=models.CASCADE)
+    image = models.ImageField(upload_to='images/',default='DEFAULT VALUE')
+    post_date = models.DateTimeField(auto_now_add=True)
 
 #     def __str__(self):
 #         return self.title
