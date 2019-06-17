@@ -44,21 +44,21 @@ class Image(models.Model):
     image = models.ImageField(upload_to='images/',default='DEFAULT VALUE')
     post_date = models.DateTimeField(auto_now_add=True)
 
-#     def __str__(self):
-#         return self.title
+    def __str__(self):
+        return self.title
 
-#     def save_image(self):
-#         self.save()
+    def save_image(self):
+        self.save()
 
 
-#     @classmethod
-#     def all_images(cls):
-#         images = cls.objects.all()
-#         return images
+    @classmethod
+    def all_images(cls):
+        images = cls.objects.all()
+        return images
 
-#     @classmethod
-#     def search_by_category(cls,search_term):
-#         # images = cls.objects.filter(categories__icontains=search_term)
-#         images = cls.objects.filter(categories__category=search_term) 
+    @classmethod
+    def search_by_category(cls,search_term):
+        # images = cls.objects.filter(categories__icontains=search_term)
+        images = cls.objects.filter(categories__category=search_term) 
 
-#         return images
+        return images
