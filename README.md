@@ -14,7 +14,7 @@ This Application is python based and runs on any browser, the user will see the 
 
 
 
-<!-- 
+
 
 ### prerequisites
 First clone the project to your camputer. ```git clone <repo url>```
@@ -38,4 +38,4 @@ Copy the link and paste in any browser ```http://localhost:8000```
 + To get Further help you can read the Django Documentation.
 
 ## Licence
- MIT (c) 2019 canssidle (https://github.com/canssidle) -->
+ MIT (c) 2019 canssidle (https://github.com/canssidle)
