@@ -20,10 +20,10 @@ class LocationTestClass(TestCase):
         locations = Location.objects.all()
         self.assertTrue(len(locations)>0)
 
-#     def test_delete_method(self):
-#         self.Nyeri.delete_location('Nyeri')
-#         locations = Location.objects.all()
-#         self.assertTrue(len(locations)==0)
+    def test_delete_method(self):
+        self.Nyeri.delete_location('Nyeri')
+        locations = Location.objects.all()
+        self.assertTrue(len(locations)==0)
 
 # class categoriesTestClass(TestCase):
 #     def setUp(self):
