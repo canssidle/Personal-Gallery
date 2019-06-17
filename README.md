@@ -1,19 +1,17 @@
-<!-- # MY  GALLERY.
+# MY  GALLERY.
 This website helps users to view my galery and select a specific and see the details of the photo.
 #### By **Canssidle** 
 
 ## Description
 
-This Application is python based and runs on any browser, 
-## Behaviour Driven Development
+This Application is python based and runs on any browser, the user will see the photos that i have posted in my gallery.The user can search the category of a specific photo.On clicking on a photo the user can see the details of the photo.One can also copy the  link of the  image and share it with friends.
+<!-- ## Behaviour Driven Development
 
 | Behavior our program should handle | Input description |  Output description
 | --- | --- | --- |
-| `View blog posts on the site` | None | Blogs displayed
-| `Registration into the app` | Writer credentials |  Redirection to login form
-| `View most recent blogs` | Blogs in separate form |  Arranged list of blogs
-| `View random quotes` | None |  A random quote is displayed
-| `Comments from a user` | Comment|  Comment along with user's name
+| `View photos that I have posted` | Photos | Images displayed
+| `Search for a specific category` |Search |  Displays the specified photo
+
 
 
 
