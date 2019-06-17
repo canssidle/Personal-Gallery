@@ -5,7 +5,7 @@ This website helps users to view my galery and select a specific and see the det
 ## Description
 
 This Application is python based and runs on any browser, the user will see the photos that i have posted in my gallery.The user can search the category of a specific photo.On clicking on a photo the user can see the details of the photo.One can also copy the  link of the  image and share it with friends.
-<!-- ## Behaviour Driven Development
+## Behaviour Driven Development
 
 | Behavior our program should handle | Input description |  Output description
 | --- | --- | --- |
@@ -14,7 +14,7 @@ This Application is python based and runs on any browser, the user will see the 
 
 
 
-
+<!-- 
 
 ### prerequisites
 First clone the project to your camputer. ```git clone <repo url>```
