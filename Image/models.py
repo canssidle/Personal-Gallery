@@ -30,12 +30,12 @@ class categories(models.Model):
     def __str__(self):
         return self.category
 
-#     def save_category(self):
-#         self.save()
+    def save_category(self):
+        self.save()
 
-#     @classmethod
-#     def delete_category(cls,category):
-#         cls.objects.filter(category=category).delete()
+    @classmethod
+    def delete_category(cls,category):
+        cls.objects.filter(category=category).delete()
 
 # class Image(models.Model):
 #     title=models.CharField(max_length=60)
