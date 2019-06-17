@@ -20,7 +20,7 @@ class Location(models.Model):
     def delete_location(cls,location):
         cls.objects.filter(location=location).delete()
 
-       @classmethod
+    @classmethod
     def delete_category(cls,name):
         cls.objects.filter(name = name).delete()
 
