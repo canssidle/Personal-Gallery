@@ -1,16 +1,16 @@
-# from django.shortcuts import render,redirect
-# import datetime as dt
-# from django.http  import HttpResponse,Http404
+from django.shortcuts import render,redirect
+import datetime as dt
+from django.http  import HttpResponse,Http404
 
-# from .models import Image
+from .models import Image
 
 
-# def welcome(request):
+def welcome(request):
 
-#     images=Image.objects.all()
+    images=Image.objects.all()
    
 
-#     return render(request,'welcome.html',{"images":images})
+    return render(request,'welcome.html',{"images":images})
 
 # def search_results(request):
 #     if 'image' in request.GET and request.GET["image"]:
