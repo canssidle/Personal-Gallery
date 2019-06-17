@@ -3,14 +3,14 @@ from django.test import TestCase
 # Create your tests here.
 
 from .models import Location,categories,Image
-# import datetime as dt
-# # Create your tests here.
-# class LocationTestClass(TestCase):
-#     def setUp(self):
-#         self.Nyeri= Location(location='Nyeri')
+import datetime as dt
+# Create your tests here.
+class LocationTestClass(TestCase):
+    def setUp(self):
+        self.Nyeri= Location(location='Nyeri')
 
-#     def test_instance(self):
-#         self.assertTrue(isinstance(self.Nyeri,Location))
+    def test_instance(self):
+        self.assertTrue(isinstance(self.Nyeri,Location))
 
 #     def tearDown(self):
 #         Location.objects.all().delete()
